@@ -12,7 +12,7 @@ const nextConfig = {
   //
   // Obs.: Comente a linha abaixo caso esteja desenvolvendo fora de forma extena aos
   // microfrontends (caso opte por desenvolver o app e depois conectar aos MF main)
-  // assetPrefix: "/public-only",
+  assetPrefix: process.env.BASE_URL,
   // ------ disabled due SWA ------
 };
 
