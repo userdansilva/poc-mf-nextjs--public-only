@@ -28,6 +28,10 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => (
               todas as páginas dele são públicas. Abaixo estão algumas URLs desse MF.
             </p>
 
+            <p>
+              Base URL: {process.env.BASE_URL}
+            </p>
+
             <div>{children}</div>
           </div>
         </Container>
